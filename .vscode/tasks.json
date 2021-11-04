@@ -1,0 +1,26 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "gradle",
+			"id": "/Users/mmccall/GitHub/ReCalcapp:buildapp",
+			"script": "app:build",
+			"description": "Assembles and tests this project.",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"project": "app",
+			"buildFile": "/Users/mmccall/GitHub/ReCalc/app/build.gradle",
+			"rootProject": "ReCalc",
+			"projectFolder": "/Users/mmccall/GitHub/ReCalc",
+			"workspaceFolder": "/Users/mmccall/GitHub/ReCalc",
+			"args": "",
+			"javaDebug": false,
+			"problemMatcher": [
+				"$gradle"
+			],
+			"label": "gradle: app:build"
+		}
+	]
+}
